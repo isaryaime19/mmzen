@@ -1,0 +1,237 @@
+body {
+    background-image:url("img/body-mmzen.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #ffe6f7;
+    font-family: "Times New Roman", Times, serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+.row {
+    margin-top: 5px;
+}
+
+ h1, h2, h3, h4, h5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #AA076B;
+    font-weight: bolder;
+ }
+ 
+ nav .h1 { 
+    font-family:'Tangerine', cursive;
+    color: #AA076B;
+    font-weight: 900;
+ }
+
+/*texto animado*/
+
+header {
+    background: #AA076B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #61045F, #AA076B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #61045F, hsla(323, 42%, 6%, 0.274)), url("img/portada2.jpg") fixed top no-repeat;
+    width: 100%;
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;     
+}
+.idioma{
+    background-color: #AA076B;
+    text-align: right;
+    color: #fff;      
+}
+
+.idioma img{
+    margin-left: 10px;
+}
+
+.idioma p{
+    display: inline;
+}
+
+.portada {
+     background-color: #fff;
+}
+
+nav a {   
+    font-size: 20px;   
+}
+
+nav li :hover {
+    background-color:#e7bdd7;    
+}
+
+.nav2{
+    visibility: hidden;
+    z-index: 100;
+    background-color: #AA076B;
+}
+
+.languaje{
+    width: 30px;
+    border-radius: 50%;
+}
+.languaje :hover{cursor: pointer;}
+
+/*header .portada{margin-left: 220px;}*/
+
+
+
+.bb1 {
+    position: relative;
+    margin-top: 100px;
+    color: black;
+    text-align: center;
+    display: block;
+}
+
+
+.buttons .btnlight {
+    font-size: 20px;
+    width: 180px;
+    background-color: #AA076B;
+    color: white;
+}
+
+.buttons .btn-outline-light {    
+    font-size: 20px;
+    width: 180px;
+}
+
+
+.card{
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+.purple{
+    color: white;
+    background-color: hsla(323, 92%, 35%, 0.733);
+}
+
+span {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white; 
+  }
+
+.ml6 span{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    font-weight: 600;
+    font-size: 50px;
+    }
+
+.ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+    }
+
+.ml6 .letter {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    display: inline-block;
+    line-height: 1em;
+    }
+    
+/*text*/
+
+.lg {
+    display: inline;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgb(192, 0, 134, 0.781);
+    width: 100%;
+    height: 0;
+    transition: 0.5s esay;
+    overflow: hidden;
+}
+
+.overlay h2 {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.imagen {
+    position: relative;
+    width:100%;
+}
+
+.imagen:hover .overlay {
+    height: 100%;
+    cursor: pointer;
+}
+.buttons .boton{ 
+    font-size: 20px;
+    background-color: #AA076B;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+}
+
+.image{
+    transform: rotate(-20deg);
+}
+
+.imagenes{
+    width: 800px;
+} 
+
+.fab{ color: #AA076B; }
+
+/*footer*/
+.contact li {
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    font-family: 'Tangerine', cursive;
+}
+
+
+
+#Regels{
+    text-align: justify;
+}
+.contact {
+    color: black;
+}
+
+ footer { 
+        background:#e7bdd7;
+          }
+          
+@media only screen and (max-width: 700px) {
+    section{
+        background:#e7bdd7;
+        }
+        
+       .image{
+          transform: rotate(0);
+             }
+
+             .ml6 span{
+                 font-size: 40px;
+                } 
+                
+    .contact h2{
+           font-size: 20px; 
+         }
+      }
+    
